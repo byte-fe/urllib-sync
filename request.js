@@ -16,6 +16,7 @@ var path = require('path');
 var util = require('util');
 var fs = require('fs');
 var os = require('os');
+os.tmpDir = os.tmpdir;
 
 var input = {};
 try {
